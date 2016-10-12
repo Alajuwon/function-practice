@@ -61,8 +61,8 @@ var numbers = [1,12,4,18,9,7,11,3,101,5,6];
  		var even = {}
 
 		for (var count = 0; count < findeven.length; count++){
-			if(number[count] %2===0 numbers.length){
-				even.push( numbers === 1);
+			if(number[count] %2  !==0 numbers.length){
+				even.push(even numbers);
 					even = numbers 
 			}
 	}
@@ -92,9 +92,9 @@ function findodd (odd){
 var strings = ['this','is','a','collection','of','words'];
 
 function findword (string){
-	var collection = 0
-	for (var count = 0; count>words.length; count++){
-		if(word[count] )
+	var collection = 0,1
+	for (var count = [0; count>words.length; count++){
+		if(string[count] )
 
 	}
 }
