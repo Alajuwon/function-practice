@@ -24,7 +24,7 @@
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
 
-function sum (a, b) {
+function sum =(a, b) {
 	var result = a + b;
 	return result;
 }
@@ -35,14 +35,14 @@ sum(1,2)
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
-function avg (a, b, c) {
-	var total
+function avg =(a, b, c) {
+
+	var letters= (a + b + c)/(3);
+
+	return letters;
 }
 
-
-
-
-
+avg(2,4,6)
 
 
 
@@ -51,7 +51,11 @@ function avg (a, b, c) {
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-
+var getLength=function(count) {
+	return count.length;
+	
+}
+get.length("Hello World")
 
 
 
@@ -62,7 +66,17 @@ function avg (a, b, c) {
 // the function should return `false`.
 
 var greaterThan = function (a,b){
-	
+	if (b > a){
+		return true
+		else{
+			return false
+		}
+	}
+};
+
+greaterThan(5,9)
+
+
 
 
 // Q5
@@ -70,8 +84,15 @@ var greaterThan = function (a,b){
 // single parameter and returns a string that
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
+ 
+ var greet =function(string){
+ 	
+ 	return ("Hello Name" + " " + name)
 
 
+ }
+
+greet("Hello Al")
 
 
 // Q6
@@ -85,8 +106,14 @@ var greaterThan = function (a,b){
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
+function madlib = (word1,word2,word3,word4){
+
+return("this week was fun but difficult at the same time")
 
 
+}
+
+ madlib("week","fun","time","difficult")
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
