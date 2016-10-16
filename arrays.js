@@ -59,12 +59,12 @@ var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 
 	function findeven (even){
  		var even = {}
-
 		for (var count = 0; count < findeven.length; count++){
-			if(number[count] %2  !==0 numbers.length){
-				even.push(even numbers);
-					even = numbers 
-			}
+		if(number[count] %2  !==0 numbers.length){
+			even.push(even numbers);
+			}even = numbers 
+				
+			
 	}
 	return even 
 }
@@ -95,9 +95,14 @@ var strings = ['this','is','a','collection','of','words'];
 function findword (string){
 	var count = 0,1
 	for (i = 0; string < words.length; i++){
-		if(string[count] )
+	  }	if(string[count]) === 0 || 1;
+	  	return result{
 
-	}
+	  	} else{
+	  		
+	  	}
+
+	
 }
 
 
