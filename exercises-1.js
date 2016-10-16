@@ -23,8 +23,9 @@
 // Q1
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
+// 
 
-function sum =(a, b) {
+function sum (a, b) {
 	var result = a + b;
 	return result;
 }
@@ -35,11 +36,12 @@ sum(1,2)
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
-function avg =(a, b, c) {
+// operator precedence is a PITA
 
-	var letters= (a + b + c)/(3);
+function avg (a, b, c) {
 
-	return letters;
+	var total = a + b + c;
+	return total / 3;
 }
 
 avg(2,4,6)
@@ -51,11 +53,11 @@ avg(2,4,6)
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-var getLength=function(count) {
+var getLength = function(count) {
 	return count.length;
 	
 }
-get.length("Hello World")
+getLength("Hello World")
 
 
 
@@ -65,12 +67,11 @@ get.length("Hello World")
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
-var greaterThan = function (a,b){
-	if (b > a){
-		return true
-		else{
-			return false
-		}
+var greaterThan = function (a, b){
+	if (b > a) {
+		return true;
+	} else {
+		return false;
 	}
 };
 
@@ -85,15 +86,13 @@ greaterThan(5,9)
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
  
- var greet =function(string){
+ var greet = function(string){
  	
- 	return ("Hello Name" + " " + name)
-
+ 	return "Hello, " + string + "!";
 
  }
 
-greet("Hello Al")
-
+greet("Al")
 
 // Q6
 // Write a function called `madlib` that takes
@@ -106,14 +105,13 @@ greet("Hello Al")
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
-function madlib = (word1,word2,word3,word4){
+function madlib (word1,word2,word3,word4){
 
-return("this week was fun but difficult at the same time")
-
+return "this" + week + "was" + fun + and + difficult;
 
 }
 
- madlib("week","fun","time","difficult")
+ madlib
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////

@@ -78,12 +78,13 @@ var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 function findodd (odd){
 	var odd = {}
 	for (var count = 0; count < numbers.length; count++){
-			if(number[count]%2===1){
-				odd.push(numbers===1);
-					odd = numbers
+		if(number[count]%2===1){
+		odd.push(numbers===1);
+			odd = numbers
 			}
 		}
-	return odd
+			return odd
+			
 }
 
 // ---------------------------
@@ -92,8 +93,8 @@ function findodd (odd){
 var strings = ['this','is','a','collection','of','words'];
 
 function findword (string){
-	var collection = 0,1
-	for (var count = [0; count>words.length; count++){
+	var count = 0,1
+	for (i = 0; string < words.length; i++){
 		if(string[count] )
 
 	}
@@ -104,10 +105,52 @@ function findword (string){
 // 5. Join Both Arrays Together
 // ---------------------------
 
+var concat = function (item1,item2){
+	var result = [];
+	
+	for (var i=0,i<item1.length; i++){
+		result.push(item1[1]);
+	}
+	for (var i = 0; i < item2.length; i++){
+		result.push(item2[i]);
+	}
+
+	return result
+};
 
 
 
 // ---------------------------
 // 6. Use the Instructors array and find all that teach JavaScript, 
 //    then sort them alphabetically
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+var strings = ['this','is','a','collection','of','words'];
+var instructors = [
+    { firstname : 'JD', teaches : 'JavaScript'},
+    { firstname : 'Tim', teaches : 'JavaScript'},
+    { firstname : 'Brit', teaches : 'Ruby'},
+    { firstname : 'Joe', teaches : 'iOS'},
+    { firstname : 'Jake', teaches : 'JavaScript'},
+    { firstname : 'Will', teaches : 'JavaScript'},
+    { firstname : 'Calvin', teaches : 'JavaScript'},
+    { firstname : 'James', teaches : 'Ruby'}
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
 // ---------------------------
